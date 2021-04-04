@@ -1,0 +1,14 @@
+version: '3'
+services:
+  
+  air:
+    image: mysql:latest
+    ports:
+    - "8086:8086"
+    environment:
+    - MYSQL_ROOT_PASSWORD=11052013s
+    - MYSQL_USER=sasa
+    - MYSQL_PASSWORD=11052013s
+    - MYSQL_DATABASE=air-companies-management-system
+    container_name: air
+    
